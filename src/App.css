@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container, .voting-area {
+  height: calc(100% - 72px);
+}
+
+.gx-5.h-row-custom.row {
+  height: calc(100% - 20px);
+}
+
+.row.h-custom, .voting-section {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.h-col-custom {
+  height: 100%;
+}
+
+.voting-results {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.bg-grayish {
+  background: #eeeeee;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+  width: 0px;
+}
+
+.main-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.sub-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.align-right {
+  text-align: right;
+}
