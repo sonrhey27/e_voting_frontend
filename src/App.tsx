@@ -1,14 +1,14 @@
 import { Navigation } from 'components/Navigation'
-import { Dashboard } from 'components/Dashboard'
+import { Dashboard } from 'components/pages/dashboard/Dashboard'
 import { Route, Routes } from 'react-router-dom'
-import { Login } from 'components/Login'
-import { Signup } from 'components/Signup'
-import { Vote } from './components/Vote';
-import Country from 'components/Country'
-import { Region } from 'components/Region'
-import { Municipality } from 'components/Municipality'
-import { Position } from 'components/Position'
-import { Candidate } from './components/Candidate';
+import { Login } from 'components/pages/login/Login'
+import { Signup } from 'components/pages/signup/Signup'
+import { Vote } from 'components/pages/vote/Vote';
+import Country from 'components/pages/country/Country'
+import { Region } from 'components/pages/region/Region'
+import { Municipality } from 'components/pages/municipality/Municipality'
+import { Position } from 'components/pages/position/Position'
+import { Candidate } from 'components/pages/candidate/Candidate';
 
 function App () {
   return (
